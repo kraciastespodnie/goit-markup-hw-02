@@ -143,8 +143,9 @@ body {
 }
 
 .our-team {
-    background-color: #ffffff;
+    background-color: var(--background-second-color);
     font-family: "Roboto", sans-serif;
+    width: 100%;
 }
 
 .our-team h2 {
@@ -166,5 +167,11 @@ body {
     height: 368px;
 }
 
+.our-team-worker img {
+    width: 270;
+    height: 260;
+}
+
 .our-team-worker-text {
+    
 }
