@@ -7,6 +7,7 @@ body {
     --main-color: #212121;
     --logo-color-first: #2196f3;
     --logo-color-second: #000000;
+    --logo-color-third: #ffffff;
     --description-color: #757575;
     --background-firs-color: #2f303a;
     --background-second-color: #f5f4fa;
@@ -19,7 +20,7 @@ body {
     width: 100%;
     height: 80px;
 }
-.header-styles h2 {
+.header-styles a {
     text-decoration: none;
     background-color: #ffffff;
     width: 145px;
@@ -32,6 +33,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
 }
 
 .logo-studio {
@@ -40,6 +43,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
 }
 
 .navi {
@@ -55,6 +60,7 @@ body {
     font-weight: 500;
     line-height: 1.38;
     display: inline;
+    letter-spacing: 0.02em;
 }
 
 .contacts a {
@@ -64,6 +70,7 @@ body {
     font-weight: 500;
     line-height: 1.38;
     display: inline;
+    letter-spacing: 0.02em;
 }
 
 .banner {
@@ -172,6 +179,67 @@ body {
     height: 260;
 }
 
-.our-team-worker-text {
-    
+.our-team-worker-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-color);
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.our-team-worker-description {
+    font-size: 16px;
+    color: var(--description-color);
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.footer-sidebar {
+    background-color: var(--background-firs-color);
+    width: 100%;
+    height: 252px;
+}
+
+.footer-styles a {
+    text-decoration: none;
+    background-color: var(--background-firs-color);
+    width: 145px;
+    height: 31px;
+}
+
+.logo-web-footer {
+    text-decoration: none;
+    color: var(--logo-color-first);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio-footer {
+    text-decoration: none;
+    color: var(--logo-color-third);
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+}
+
+.footer-address address {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-address a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
