@@ -29,7 +29,7 @@ body {
 .logo-web {
     text-decoration: none;
     color: var(--logo-color-first);
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
 }
@@ -37,7 +37,7 @@ body {
 .logo-studio {
     text-decoration: none;
     color: var(--logo-color-second);
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
 }
@@ -79,4 +79,92 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+}
+
+.banner-button {
+    background-color: var(--button);
+    color: var(--button-text);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+}
+
+.advantages {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.advantages-list {
+    list-style-type: none;
+}
+
+.advantages-list h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--main-color);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.advantages-list p {
+    font-size: 14px;
+    color: var(--description-color);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.what-we-do {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.what-we-do h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color);
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.what-we-do ul {
+    list-style-type: none;
+}
+
+.what-we-do img {
+    width: 370;
+    height: 294;
+}
+
+.our-team {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.our-team h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.our-team ul {
+    list-style-type: none;
+}
+
+.our-team-worker {
+    background-color: #ffffff;
+    width: 270px;
+    height: 368px;
+}
+
+.our-team-worker-text {
 }
