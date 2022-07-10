@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     color: #000000;
@@ -63,6 +65,11 @@ body {
     letter-spacing: 0.02em;
 }
 
+.navi-type a:hover,
+.navi-type a:focus {
+    color: #2196f3;
+}
+
 .contacts a {
     text-decoration: none;
     color: var(--description-color);
@@ -71,6 +78,11 @@ body {
     line-height: 1.38;
     display: inline;
     letter-spacing: 0.02em;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: #2196f3;
 }
 
 .banner {
@@ -231,6 +243,7 @@ body {
 
 .footer-address address {
     font-size: 14px;
+    font-style: normal;
     color: #ffffff;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -240,6 +253,63 @@ body {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-address a:hover,
+.footer-address a:focus {
+    color: #2196f3;
+}
+
+/* portfolio styles*/
+
+.portfolio {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+.filters-buttons {
+    border: none;
+    background-color: var(--background-second-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.filters-buttons:hover,
+.filters-buttons:focus {
+    color: var(--button-text);
+    background-color: var(--button);
+}
+
+.portfolio-project-list {
+    list-style-type: none;
+}
+
+.portfolio-project {
+    background-color: #ffffff;
+    width: 370px;
+    height: 404px;
+}
+
+.portfolio-project-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-color);
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-project-description {
+    font-size: 16px;
+    font-style: normal;
+    color: var(--description-color);
+    line-height: 1.1875;
     letter-spacing: 0.03em;
 }
